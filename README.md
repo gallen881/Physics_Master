@@ -12,6 +12,10 @@ Physics Master is a model finetuned from [unsloth/llama-3-8b-Instruct-bnb-4bit](
     ```
     cd Physics_Master
     ```
+3. Install dependencies.
+    ```
+    pip install -r requirements.txt
+    ```
 3. Run `chat.py`.
     ```
     python chat.py
