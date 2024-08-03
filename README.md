@@ -8,7 +8,11 @@ Physics Master is a model finetuned from [unsloth/llama-3-8b-Instruct-bnb-4bit](
     ```
     git clone https://github.com/gallen881/Physics_Master.git
     ```
-2. Run `chat.py`.
+2. Move to `Physics_Master`
+    ```
+    cd Physics_Master
+    ```
+3. Run `chat.py`.
     ```
     python chat.py
     ```
