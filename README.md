@@ -1,6 +1,6 @@
 # Physics Master
 
-Physics Master is a model finetuned from [unsloth/llama-3-8b-Instruct-bnb-4bit](https://huggingface.co/unsloth/llama-3-8b-Instruct-bnb-4bit) and [ArtifactAI/arxiv-physics-instruct-tune-30k](https://huggingface.co/datasets/ArtifactAI/arxiv-physics-instruct-tune-30k). Here is the python code. The model is open source on [Hugging Face](https://huggingface.co/gallen881/Llama-3-8B-Physics_Master-GGUF)
+Physics Master is a model finetuned from [unsloth/llama-3-8b-Instruct-bnb-4bit](https://huggingface.co/unsloth/llama-3-8b-Instruct-bnb-4bit) and [ArtifactAI/arxiv-physics-instruct-tune-30k](https://huggingface.co/datasets/ArtifactAI/arxiv-physics-instruct-tune-30k). Here is the python code. The model is open source on [Hugging Face](https://huggingface.co/gallen881/Llama-3-8B-Physics_Master-GGUF).
 
 # How to use?
 
