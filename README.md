@@ -4,6 +4,8 @@ Physics Master is a model finetuned from [unsloth/llama-3-8b-Instruct-bnb-4bit](
 
 # How to use?
 
+## Run model on local computer
+
 1. Clone this repo.
     ```
     git clone https://github.com/gallen881/Physics_Master.git
@@ -20,6 +22,10 @@ Physics Master is a model finetuned from [unsloth/llama-3-8b-Instruct-bnb-4bit](
     ```
     python chat.py
     ```
+
+## Run model on Colab
+
+https://colab.research.google.com/github/gallen881/Physics_Master/blob/master/chat.ipynb
 
 # Additional Function
 
