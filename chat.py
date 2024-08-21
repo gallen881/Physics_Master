@@ -67,7 +67,6 @@ else:
 
 chat_time = time.time()
 chat_history.append({"time": chat_time, "messages": None})
-user_inputing = True
 use_wolframalpha = False
 while True:
     if use_wolframalpha:
@@ -85,10 +84,9 @@ while True:
     chat_history[-1]['messages'] = messages
     with open('chat_history.json', 'w', encoding='utf8') as file:
         json.dump(chat_history, file, indent=4)
-    if user_inputing:
-        user_input = input('\033[94mYou: \033[0m')
-        user_message = {'role': 'user', 'content': user_input}
-        messages.append(user_message)
+    user_input = input('\033[94mYou: \033[0m')
+    user_message = {'role': 'user', 'content': user_input}
+    messages.append(user_message)
     print('Physics Master is thinking...', end='\r')
     response = llm.create_chat_completion(
         messages=messages,
