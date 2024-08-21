@@ -27,7 +27,7 @@ If want to use WolframAlpha, follow these steps:
 
 1. If don't have a WolframAlpha account, go [here](https://developer.wolframalpha.com/) and create one.
 2. Go [here](https://developer.wolframalpha.com/access) and click **Get an App ID**.
-3. Enter **Name** and **Description**, then select **Short Answers API**
+3. Enter **Name** and **Description**, then select **Full Results API**
 4. Click **Submit**, then copy the **App ID**.
 5. Run `set_keys.py`, then enter your App ID.
     ```
