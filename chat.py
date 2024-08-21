@@ -33,10 +33,10 @@ def prompt_from_messages(messages):
     prompt = prompt[:-10]
     return prompt
         
-    
-with open('config.json') as file:
-    keys = json.load(file)
-
+keys = {}
+if os.path.exists('config.json'):
+    with open('config.json') as file:
+        keys = json.load(file)
 WOLFRAMALPHA_KEY = keys.get('WOLFRAMALPHA', '')
 
 llm = Llama.from_pretrained(
